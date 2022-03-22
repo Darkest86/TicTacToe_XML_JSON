@@ -1,0 +1,39 @@
+{
+  "Gameplay" : {
+    "Players" : [ {
+      "id" : 1,
+      "name" : "Champion",
+      "mark" : "X"
+    }, {
+      "id" : 2,
+      "name" : "Beginner",
+      "mark" : "O"
+    } ],
+    "Steps" : [ {
+      "id" : 1,
+      "playerId" : 1,
+      "cellId" : 2
+    }, {
+      "id" : 2,
+      "playerId" : 2,
+      "cellId" : 6
+    }, {
+      "id" : 3,
+      "playerId" : 1,
+      "cellId" : 5
+    }, {
+      "id" : 4,
+      "playerId" : 2,
+      "cellId" : 9
+    }, {
+      "id" : 5,
+      "playerId" : 1,
+      "cellId" : 4
+    }, {
+      "id" : 6,
+      "playerId" : 2,
+      "cellId" : 3
+    } ],
+    "Game Result" : "{\"Player\":{\"id\":2,\"name\":\"Beginner\",\"mark\":\"O\"}}"
+  }
+}

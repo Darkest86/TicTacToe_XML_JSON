@@ -1,0 +1,35 @@
+{
+  "Gameplay" : {
+    "Players" : [ {
+      "id" : 1,
+      "name" : "Player One",
+      "mark" : "X"
+    }, {
+      "id" : 2,
+      "name" : "Player Two",
+      "mark" : "O"
+    } ],
+    "Steps" : [ {
+      "id" : 1,
+      "playerId" : 1,
+      "cellId" : 3
+    }, {
+      "id" : 2,
+      "playerId" : 2,
+      "cellId" : 6
+    }, {
+      "id" : 3,
+      "playerId" : 1,
+      "cellId" : 2
+    }, {
+      "id" : 4,
+      "playerId" : 2,
+      "cellId" : 5
+    }, {
+      "id" : 5,
+      "playerId" : 1,
+      "cellId" : 1
+    } ],
+    "Game Result" : "{\"Player\":{\"id\":1,\"name\":\"Player One\",\"mark\":\"X\"}}"
+  }
+}
